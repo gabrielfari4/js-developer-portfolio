@@ -15,12 +15,23 @@ const updateProfileInfo = (profileData) => {
 
     const phone = document.getElementById("profile-phone")
     phone.innerText = profileData.phone
+    phone.href = `tel:${profileData.phone}`
 
     const email = document.getElementById("profile-email")
     email.innerText = profileData.email
+    email.href = `mailto:${profileData.email}`
+}
+
+const updateSoftSkills = (profileData) => {
+    const softSkills = document.getElementById("profile-skills-softSkills")
+    const items = profileData.skills.softSkills.map((skill) => {
+        return `<li>${skill}</li>`
+    })
+    softSkills.innerHTML = items.join('')
 }
 
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
+    updateSoftSkills(profileData)
 })()
