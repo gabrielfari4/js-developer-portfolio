@@ -7,7 +7,4 @@
     } catch (error) {
         console.error(error)
     }
-
  }
-
- fetchProfileData()
