@@ -8,16 +8,32 @@
   "skills": {
     "hardSkills": [
       {
-        "nome": "Android",
-        "logo": "TODO"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/css.png"
       },
       {
-        "nome": "Java",
-        "logo": "TODO"
+        "name": "Git",
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/git.png"
       },
       {
-        "nome": "Kotlin",
-        "logo": "TODO"
+        "name": "GitHub",
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/github.png"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/html.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/js.png"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/react.png"
+      },
+      {
+        "name": "VSCode",
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/heads/projeto-base/data/imgs/vscode.png"
       }
     ],
     "softSkills": [
