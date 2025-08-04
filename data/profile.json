@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/css.png"
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/data/imgs/css.png"
       },
       {
         "name": "Git",
-        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/git.png"
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/data/imgs/git.png"
       },
       {
         "name": "GitHub",
-        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/github.png"
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/data/imgs/github.png"
       },
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/html.png"
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/data/imgs/html.png"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/js.png"
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/data/imgs/js.png"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/main/data/imgs/react.png"
+        "logo": "https://raw.githubusercontent.com/gabrielfari4/js-developer-portfolio/refs/projeto-base/data/imgs/react.png"
       },
       {
         "name": "VSCode",
