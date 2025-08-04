@@ -39,6 +39,15 @@ const updateHardSkills = (profileData) => {
     console.log(items)
 }
 
+const updateLanguages = (profileData) => {
+    const languages = document.querySelector(".languages")
+    const items = profileData.languages.map((lang) => {
+        return `<li>${lang}</li>`
+    })
+
+    languages.innerHTML = items.join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)

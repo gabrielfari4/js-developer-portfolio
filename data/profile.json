@@ -43,19 +43,10 @@
       "Organização"
     ]
   },
-  "idiomas": [
-    {
-      "nome": "Português",
-      "nivel": "Nativo"
-    },
-    {
-      "nome": "Inglês",
-      "nivel": "Intermediário"
-    },
-    {
-      "nome": "Espanhol",
-      "nivel": "Básico"
-    }
+  "languages": [
+    "Português",
+    "Inglês (avançado)",
+    "Francês (básico)"
   ],
   "educacao": [
     {
