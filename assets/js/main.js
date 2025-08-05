@@ -44,7 +44,6 @@ const updateLanguages = (profileData) => {
         return `<li>${lang}</li>`
     })
     
-    console.log(items)
     languages.innerHTML = items.join('')
 }
 
@@ -53,8 +52,18 @@ const updatePortfolio = (profileData) => {
     const items = profileData.portfolio.map((item) => {
         return `<li><h3 class="title github">${item.name}</h3><a href="${item.url}" target="_blank">${item.url}</a></li>`
     })
-
+    
     portfolio.innerHTML = items.join('')
+}
+
+const updateExperience = (profileData) => {
+    const experience = document.querySelector(".experience")
+    const items = profileData.experience.map((item) => {
+        return `<li><h3 class="title">${item.name}</h3><p class="period">${item.period}</p><p>${item.description}</p></li>`
+    })
+    
+    console.log(items)
+    experience.innerHTML = items.join('')
 }
 
 (async () => {
@@ -64,4 +73,5 @@ const updatePortfolio = (profileData) => {
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)
+    updateExperience(profileData)
 })()

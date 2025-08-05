@@ -118,15 +118,16 @@
       "url": "https://github.com/gabrielfari4/dio-pokedex"
     }
   ],
-  "experiencias": [
+  "experience": [
     {
-      "nome": "Education Tech Lead ",
-      "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
-      "periodo": {
-        "inicio": "03/2021",
-        "fim": "Atualmente"
-      }
+      "name": "Desenvolvedor Front-end",
+      "period": "Dec 2024 - Current",
+      "description": "Construção de sites, landing pages para instituições, empresas e pessoas físicas. Garantir dinamismo, layout moderno e responsividade."
+    },
+    {
+      "name": "Consultor de Implantação de Sistemas",
+      "period": "Jun 2022 - Jun 2023",
+      "description": "Auxiliar/instruir usuários na utilização do sistema. Verificar falhas, erros, melhorias. Acompanhar implantação."
     }
   ]
 }
