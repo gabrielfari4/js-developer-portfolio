@@ -36,7 +36,6 @@ const updateHardSkills = (profileData) => {
         return `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"/></li>`
     })
     hardSkills.querySelector("ul").innerHTML = items.join('')
-    console.log(items)
 }
 
 const updateLanguages = (profileData) => {
@@ -44,8 +43,18 @@ const updateLanguages = (profileData) => {
     const items = profileData.languages.map((lang) => {
         return `<li>${lang}</li>`
     })
-
+    
+    console.log(items)
     languages.innerHTML = items.join('')
+}
+
+const updatePortfolio = (profileData) => {
+    const portfolio = document.querySelector(".portfolio")
+    const items = profileData.portfolio.map((item) => {
+        return `<li><h3 class="title github">${item.name}</h3><a href="${item.url}" target="_blank">${item.url}</a></li>`
+    })
+
+    portfolio.innerHTML = items.join('')
 }
 
 (async () => {
@@ -53,4 +62,6 @@ const updateLanguages = (profileData) => {
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
+    updateLanguages(profileData)
+    updatePortfolio(profileData)
 })()
